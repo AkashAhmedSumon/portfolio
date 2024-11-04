@@ -1,0 +1,52 @@
+/* Nav Related Styles */
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 15px 35px;
+  background: #fd6e0a;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+nav a:hover {
+    color:#fd6e0a;
+}
