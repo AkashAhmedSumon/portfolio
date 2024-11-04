@@ -1,8 +1,7 @@
 /* Nav Related Styles */
 
 body {
-  margin: 0px;
-  padding: 0px;
+ 
   font-family: "Open Sans", sans-serif;
 }
 .text-primary {
@@ -24,7 +23,8 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 0px 200px;
 }
 
 .nav-title {
@@ -48,5 +48,17 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-    color:#fd6e0a;
+  color: #fd6e0a;
+}
+
+header {
+  background: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    width: 550px;
 }
